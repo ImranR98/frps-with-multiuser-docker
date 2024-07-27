@@ -1,0 +1,2 @@
+clienta=thisisaveryshortsecretusedbyclienta
+clientb=clientareallyshouldusealongersecretwhatanoob
