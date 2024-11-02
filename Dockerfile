@@ -6,6 +6,8 @@ WORKDIR /workdir
 
 COPY . .
 
+ARG CACHEBUST=1 
+
 RUN bash update-frps.sh
 RUN bash update-frps-multiuser.sh
 
