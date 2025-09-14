@@ -7,6 +7,6 @@ services:
     container_name: frps-with-multiuser
     restart: always
     volumes:
-      # - ./service-data/frps.ini:/workdir/service-data/frps.ini # Uncomment if default is not suitable
+      # - ./service-data/frps.toml:/workdir/service-data/frps.toml # Uncomment if default is not suitable
       - ./service-data/frps-tokens.txt:/workdir/service-data/frps-tokens.txt
     network_mode: host

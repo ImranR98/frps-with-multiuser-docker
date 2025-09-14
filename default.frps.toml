@@ -1,0 +1,8 @@
+bindPort = 7000
+auth.additionalScopes = ["HeartBeats", "NewWorkConns"]
+
+[[httpPlugins]]
+name = "fp-multiuser"
+addr = "127.0.0.1:7200"
+path = "/handler"
+ops = ["Login"]
